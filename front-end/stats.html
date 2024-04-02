@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WP.GG</title>
+    <link rel="stylesheet" href="stats.css">
+</head>
+<body>
+    <div class="container">
+        <div class="center-content">
+            <div id="playerName" class="player-name"></div>
+            <div id="playerLevel" class="player-level">
+                <div id="playerIcon"> </div> <!-- Player Level is under icon IDK HOW -->
+            </div>
+            <!-- Solo Rank and Rank data side by side -->
+            <div id="soloTierRank" class="rank-container">
+                <div id="soloTier"> </div>
+                <div id="soloRank"> </div>
+            </div>
+            <!-- Flex Rank and Rank data side by side -->
+            <div id="flexTierRank" class="rank-container">
+                <div id="flexTier"> </div>
+                <div id="flexRank"> </div>  
+            </div>
+            <!-- Top 3 champs side by side, with mastery points under -->
+            <h2> Top 3 Most Played Champions</h2>
+            <div class="center-content-sideways">
+                <div class = "champ2-data">
+                    <div id="champ2-img"></div>
+                    <div id="champ2-mastery"></div>
+                </div>
+                <div id = "champ1-data">
+                    <div id="champ1-img"></div>
+                    <div id="champ1-mastery"></div>
+                </div>
+                <div id = "champ3-data">
+                    <div id="champ3-img"></div>
+                    <div id="champ3-mastery"></div>
+                </div>
+            </div> 
+        </div>
+        <div class = "recent-container">
+            <!-- Recent Match Data(ie. avg kda from recent matches) -->
+            <p> Insert Recent Match Data Here</p>
+        </div>
+        <div class="data-container">
+            <h2>Match History</h2>
+            <div class="match-history-container">
+                <!-- Match history entries will be populated here dynamically -->
+                
+            </div>
+        </div>
+        <!-- </div> -->
+        <button id="mode-toggle">Light/Dark Mode</button> <!-- Light/Dark Mode Button -->
+        <a href="index.html" id="back-btn">Back</a> <!-- back button -->
+    </div>
+    <script src="stats.js"></script>
+</body>
+</html>
