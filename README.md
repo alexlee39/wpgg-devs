@@ -2,7 +2,7 @@
 
 ## Main project can be found [here](https://github.com/Jeeevii/RiotStatsChecker)
 
-### Project idea is over simplified version of your favorite League of Legends Websites such as [op.gg](op.gg) or [u.gg](u.gg)
+### Project idea is over simplified version of your favorite League of Legends Websites such as [op.gg](https://op.gg) or [u.gg](https://u.gg)
 ### To Use this app
 1) Just gitclone or fork this repository 
 2) Sign Up/Login into the Riot Developer Portal [here](https://developer.riotgames.com/)
